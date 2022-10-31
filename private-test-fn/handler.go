@@ -1,10 +1,6 @@
 package function
 
-import (
-	"fmt"
-)
-
 // Handle a serverless request
 func Handle(req []byte) string {
-	return fmt.Sprintf("Hello, Go. You said: %s", string(req))
+	return "Pulling from private repos is working just fine for ghcr.io\n"
 }
