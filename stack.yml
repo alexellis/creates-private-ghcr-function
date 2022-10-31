@@ -6,7 +6,7 @@ functions:
   private-test-fn:
     lang: go
     handler: ./private-test-fn
-    image: private-test-fn:latest
+    image: ghcr.io/alexellis/private-test-fn:0.0.1
 
 configuration:
   templates:
