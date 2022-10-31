@@ -8,3 +8,6 @@ functions:
     handler: ./private-test-fn
     image: private-test-fn:latest
 
+configuration:
+  templates:
+    - name: go
